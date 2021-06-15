@@ -21,7 +21,23 @@ using std::max;
 
 int main(void)
 {
-    // TODO: Adicione aqui seu código.
 
+    Ponto p1, p2, pr;
+
+    while(cin >> p1.x >> p1.y >> p2.x>> p2.y >> pr.x >> pr.y){
+    
+
+    int resposta = pt_in_rect(p1, p2, pr);
+
+    if(resposta == 1){
+        cout << "border"<<endl;
+    }
+    else if(resposta == 2){
+        cout << "outside"<<endl;
+    }
+    else if(resposta == 0){
+        cout << "inside"<<endl;
+    }
+    }
     return 0;
 }
