@@ -10,7 +10,30 @@ using std::endl;
 
 int main( void )
 {
-    // TODO: Adicione seu código aqui. 
+    
+    int m=0,n=0;
+    int soma=0;
+
+    while(cin >> std::ws >> m >> n){
+        soma = 0;
+        if(n>0){
+            for(int i=0; i<n; i++){
+                soma = soma+m;
+                m++;
+            }
+            cout<<soma<<endl;
+        }
+        else if(n<0){
+            for(int i=0; i<(n*-1); i++){
+                soma = soma+m;
+                m--;
+            }
+            cout<<soma<<endl;
+        }
+        else{
+            cout<<m<<endl;
+        }
+    }
 
     return 0;
 }
