@@ -2,7 +2,7 @@
 #define FUNCTION_H
 
 #include <utility>
-using std::pair;
+using namespace std;
 
 std::pair<int, int> min_max( int V[], size_t n );
 
