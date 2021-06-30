@@ -18,7 +18,9 @@ using std::max;
 
 // Coloque aqui qualquer função auxiliar que desejar.
 
-
+/*
+vou considerar 80% ja que vc não validou a entrada
+*/
 int main(void)
 {
 
@@ -26,7 +28,7 @@ int main(void)
 
     while(cin >> p1.x >> p1.y >> p2.x>> p2.y >> pr.x >> pr.y){
     
-
+    /*mais outro exemplo de indentação ruim*/
     int resposta = pt_in_rect(p1, p2, pr);
 
     if(resposta == 1){

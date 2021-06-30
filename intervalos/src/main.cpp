@@ -14,6 +14,9 @@ using namespace std;
 
 // Se desejar, crie funções aqui, antes do main().
 
+/*
+blz
+*/
 int main(void)
 {
     int total=0;
